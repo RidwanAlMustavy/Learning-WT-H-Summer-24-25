@@ -1,0 +1,48 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="second.css">
+        <title>Login Form </title>
+
+</head>
+
+<body>
+   
+ <form action="/submit_form" method="POST" class="form-container">
+
+    <label for="first-name">First name:</label><br>
+    <input type="text" id="first-name" name="first-name" class="input-text"><br><br>
+
+    <label for="last-name">Last name:</label><br>
+    <input type="text" id="last-name" name="last-name" class="input-text"><br><br>
+
+    <label for="email">E-mail:</label><br>
+    <input type="email" id="email" name="email" class="input-email"><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" class="input-pass"><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male" class="input-radio">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female" class="input-radio">
+    <label for="female">Female</label><br><br>
+
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" class="input-date"><br><br>
+
+    <label for="role">Account Type:</label><br>
+    <select id="role" name="role" class="input-select">
+      <option value="user">User</option>
+      <option value="admin">Admin</option>
+      <option value="manager">Manager</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit" class="btn-submit">
+    <input type="reset" value="Reset" class="btn-reset">
+
+  </form>
+</body>
+
+
+
+</html>
